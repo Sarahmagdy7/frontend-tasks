@@ -25,3 +25,4 @@ This repository showcases my frontend practice and helps track my progress while
 Sara Magdy
 
 GitHub:
+https://sarahmagdy7.github.io/frontend-tasks/
