@@ -1,0 +1,106 @@
+*{ 
+  box-sizing:border-box;
+  margin:0;
+  font-family:Arial;
+}
+/* grid */
+.page{
+  min-height:100vh;
+  display:grid;
+
+  grid-template-areas:
+    "top top"
+    "header header"
+    "nav nav"
+    "left right"
+    "footer footer";
+
+  grid-template-columns: 1fr 3fr;
+}
+
+/* areas */
+
+.top{
+  grid-area:top;
+  background:yellow;
+  text-align:center;
+  padding:8px;
+}
+
+.header{
+  grid-area:header;
+  background:#1abc9c;
+  color:white;
+  text-align:center;
+  padding:40px 10px;
+}
+
+.nav{
+  grid-area:nav;
+  background:#333;
+
+  display:grid;
+  grid-auto-flow:column;
+  gap:20px;
+  padding:10px;
+}
+
+.nav a{
+  color:white;
+  text-decoration:none;
+}
+
+.left{
+  grid-area:left;
+  background:#f1f1f1;
+  padding:15px;
+}
+
+.right{
+  grid-area:right;
+  padding:15px;
+
+  display:grid;
+  row-gap:30px;
+}
+
+.footer{
+  grid-area:footer;
+  background:#ddd;
+  text-align:center;
+  padding:15px;
+}
+
+/* fake images */
+
+.img{
+  background:#aaa;
+  color:white;
+  padding:10px;
+  margin:10px 0;
+}
+
+.big{height:160px;}
+.small{height:60px;}
+.wide{height:200px;}
+
+/* ✅ responsive exactly like the task */
+
+@media(max-width:700px){
+
+  .page{
+    grid-template-areas:
+      "top"
+      "header"
+      "nav"
+      "left"
+      "right"
+      "footer";
+
+    grid-template-columns:1fr;
+  }
+
+  .nav{
+    grid-auto-flow:row;
+  }
+}

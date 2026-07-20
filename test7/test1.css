@@ -1,0 +1,47 @@
+.top-bar{
+  background: yellow;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.header{
+  background: #1abc9c;
+  color: white;
+  text-align: center;
+  padding: 40px 10px;
+}
+
+.left{
+  background: #f1f1f1;
+  padding: 15px;
+}
+
+.right{
+  padding: 15px;
+}
+
+.fake-img{
+  background:#aaa;
+  color:white;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+.big{
+  height:160px;
+}
+
+.small{
+  height:60px;
+}
+
+.wide{
+  height:200px;
+}
+
+.footer{
+  background:#ddd;
+  text-align:center;
+  padding:15px;
+}

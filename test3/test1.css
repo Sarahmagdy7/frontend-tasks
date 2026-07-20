@@ -1,0 +1,22 @@
+body{
+    background-color: cadetblue;text-align: center;
+}
+#id1{
+    background-color: aliceblue;
+}
+#id2{
+    background-color: azure;color: black;
+
+}
+.class1{
+    background-color: bisque;color: brown;
+}
+.class2{
+    background-color: blanchedalmond; color: darkcyan;
+}
+.class3{
+    background-color: antiquewhite; color: blue;
+}
+.class4{
+    background-color: burlywood; color: blueviolet;
+}
